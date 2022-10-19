@@ -9,7 +9,9 @@ public class ArrayDemo {
         char[] letters = {'s', 'e', 'k', 'r'};
         //ex1();
         //ex2();
-        ex03();
+        //ex03();
+        //ex04();
+        sortNumbers();
 
 
     }
@@ -60,9 +62,43 @@ public class ArrayDemo {
 
         for (int i = 0; i < board.length; i++) {
             for (int j = 0; j < board[i].length; j++) {
-                System.out.println(board[i][j]);
+                System.out.print(board[i][j] + "\t");
             }
+            System.out.println("\n");
 
         }
     }
+
+    public static void ex04() {
+        int[] numbers = {2, 4, 6, 8};
+        for (int i = 0; i < numbers.length; i++) {
+            System.out.println(numbers[i]);
+        }
+        System.out.println("................");
+
+        for(int number: numbers){
+            System.out.println(number);
+        }
+    }
+
+    // write a program to sort the defined array in ascending order
+    public static void sortNumbers(){
+        int[]numbers = {6, 9, 2, 5,8,11};
+        int size = numbers.length;
+        for(int i = 0; i< size; i++){
+            for(int j = i+1;j<size; j++){
+                if( numbers[i]>numbers[j]){
+                    int tmp = numbers[i];
+                    numbers[i] = numbers[j];
+                    numbers[j] = tmp;
+
+                }
+            }
+        }
+        for( int number : numbers){
+            System.out.println(number);
+        }
+
+    }
+
 }
