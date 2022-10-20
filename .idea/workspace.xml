@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7e7476c-cec8-48f8-a5ae-758271213050" name="Changes" comment="swapping array elements (sort)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayExample.java" afterDir="false" />
+    <list default="true" id="c7e7476c-cec8-48f8-a5ae-758271213050" name="Changes" comment="swapping array elements (sort)1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayUtilDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ArrayExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Mozhdeh/Downloads/g45_array_exercises-master&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.ArrayUtilDemo">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="Week42_Array" />
@@ -68,8 +70,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ArrayUtilDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ArrayUtilDemo" />
+      <module name="Week42_Array" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayUtilDemo" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.ArrayDemo" />
       </list>
@@ -98,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666205953403</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="swapping array elements (sort)1">
+      <created>1666254577632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666254577632</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,6 +138,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Array" />
     <MESSAGE value="swapping array elements (sort)" />
-    <option name="LAST_COMMIT_MESSAGE" value="swapping array elements (sort)" />
+    <MESSAGE value="swapping array elements (sort)1" />
+    <option name="LAST_COMMIT_MESSAGE" value="swapping array elements (sort)1" />
   </component>
 </project>

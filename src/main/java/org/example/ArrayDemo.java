@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class ArrayDemo {
 
     public static void main(String[] args) {
@@ -11,7 +13,8 @@ public class ArrayDemo {
         //ex2();
         //ex03();
         //ex04();
-        sortNumbers();
+        //sortNumbers();
+
 
 
     }
@@ -100,5 +103,6 @@ public class ArrayDemo {
         }
 
     }
+
 
 }
